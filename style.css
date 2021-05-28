@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: lightblue;
+}
+.main-div{
+    width: 40%;
+    margin: auto;
+    background-color: #dcdcef;
+    border-radius: 45px
+    /* margin-top: 8%;  */
+    /* padding:5%; */
+
+
+}
+.inner-div{
+    margin-top: 100px;
+    padding: 40px;
+}
+.inner-div h2{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.inner-div li{
+    padding: 6px;
+    list-style: none;
+}
+
+ #submit ,.btn{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1px 6px;
+
+ }
+ #submit:hover{
+     background-color: cadetblue;
+ }
+
+ #showScore{
+     background-color:darkgrey ;
+     margin-top: 20px;
+     height: 40vh;
+     border-radius: 17px;
+     padding: 15px;
+     
+ }
+
+
+ #showScore h3 {
+    text-align: center;
+    padding: 24px;
+ }
+
+
+ #showScore h2{text-align: center;
+
+ }
+ #showScore .btn{
+     margin-top: 2rem;
+     background-color: #55efc4;
+     color: #2d3436;
+ }
+ #showScore .btn:hover{
+     background-color: #00b894;
+     color: #fff;
+ }
+ .scoreArea{
+    display: none;
+}
